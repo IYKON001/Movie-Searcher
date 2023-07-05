@@ -1,30 +1,11 @@
+/*eslint-disable*/
+
 import React from "react"
-
-// const BookCard = ({Books}) => {
-//     return (
-//     <div className="Books">
-//         <div>
-//             <p>{Books.Year}</p>
-//         </div>
-
-//         <div>
-//             <img src={Books.image !== 'N/A' ? Books.image : "https://via.placeholder.com/400"} alt={Books.Title}/>
-
-//         </div>
-
-//         <div>
-//             <span>{Books.Type}</span>
-//             <h3>{Books.Title}</h3>
-//         </div>
-//     </div>
-//     )
-// }
-
 
 
 const MovieCard = ({movie}) => {
     return (
-    <div className="movie">
+    <div className="movies">
         <div>
             <p>{movie.Year}</p>
         </div>

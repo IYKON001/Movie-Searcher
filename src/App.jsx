@@ -1,3 +1,6 @@
+/*eslint-disable*/
+    
+
     import './App.css'
     import Movies from './Movies'
 

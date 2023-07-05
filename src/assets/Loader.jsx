@@ -1,3 +1,5 @@
+/*eslint-disable*/
+
 import loader from './loading.gif'
 
 export default function Loader(){

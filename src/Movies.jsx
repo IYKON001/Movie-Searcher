@@ -1,3 +1,6 @@
+/*eslint-disable*/
+
+
 import { useState } from 'react'
 import { useEffect } from "react"
 import searchIcon from './search.svg'
@@ -45,9 +48,10 @@ const Movies = () => {
     return(
         <div className="app">
         <h1>IYKON'S Hall Of Movies</h1>
+        <p> discover and explore movies</p>
         <div className="search">
             <input
-            placeholder="Welcome! Please search for movies"
+            placeholder="Welcome!, search here for movies"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             />
